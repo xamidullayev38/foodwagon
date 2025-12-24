@@ -1,15 +1,14 @@
-<template>
-  <div>
-    <h1 class="text-amber-300 text-3xl">Hello world</h1>
-
-
-  </div>
-</template>
-
 <script setup>
+import Header from './components/Header.vue';
+
 
 </script>
 
-<style lang="scss" scoped>
-
+<template>
+  <Header />
+  
+  
+</template>
+<style lang="scss">
+  @use './assets/styles/main.scss'
 </style>
