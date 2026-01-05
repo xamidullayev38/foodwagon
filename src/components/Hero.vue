@@ -6,9 +6,7 @@
                 <p class="text-[18px] mb-5">Within a few clicks, find meals that are accessible near you</p>
                 <div class="flex flex-col p-6 rounded-2xl bg-white">
                     <div class="w-full max-w-4xl mx-auto bg-white  p-4">
-                        <!-- Top toggle -->
                         <div class="flex items-center gap-6 mb-4">
-                            <!-- Delivery -->
                             <button
                                 class="flex items-center gap-2 px-4 py-2 rounded-2xl bg-orange-100 text-orange-600 font-medium">
                                 <img src="../assets/img/svg/mtot.svg" alt="">
@@ -23,7 +21,6 @@
                         </div>
 
                         <div class="flex items-center gap-3">
-                            <!-- Address input -->
                             <div class="w-[420px] flex items-center flex-1 bg-gray-100 rounded-xl px-4 py-3 gap-2">
                                 
                                 <img src="../assets/img/svg/map-marker-alt.svg" alt="">
@@ -34,7 +31,7 @@
 
                             
                             <button
-                                class="flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-xl">
+                                class="flex cursor-pointer items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-xl">
                                 
                                 Find Food
                             </button>
