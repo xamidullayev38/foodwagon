@@ -2,6 +2,7 @@
 import Flash from './components/Flash.vue';
 import Header from './components/Header.vue';
 import Hero from './components/Hero.vue';
+import Popular from './components/Popular.vue';
 import Work from './components/Work.vue';
 
 </script>
@@ -11,7 +12,9 @@ import Work from './components/Work.vue';
   <Hero />
   <Flash />
   <Work />
+  <Popular />
 </template>
+
 <style lang="scss">
   @use './assets/styles/main.scss'
 </style>
