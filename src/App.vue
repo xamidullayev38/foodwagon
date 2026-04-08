@@ -1,4 +1,5 @@
 <script setup>
+import AppPromo from './components/AppPromo.vue';
 import Flash from './components/Flash.vue';
 import FeaturedRestaurants from './components/FeaturedRestaurants.vue';
 import Header from './components/Header.vue';
@@ -17,6 +18,7 @@ import Work from './components/Work.vue';
   <Popular />
   <FeaturedRestaurants />
   <SearchByFood />
+  <AppPromo />
 </template>
 
 <style lang="scss">
