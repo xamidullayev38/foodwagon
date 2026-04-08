@@ -2,6 +2,7 @@
 import AppPromo from './components/AppPromo.vue';
 import Flash from './components/Flash.vue';
 import FeaturedRestaurants from './components/FeaturedRestaurants.vue';
+import FoodBanners from './components/FoodBanners.vue';
 import Header from './components/Header.vue';
 import Hero from './components/Hero.vue';
 import Popular from './components/Popular.vue';
@@ -18,6 +19,7 @@ import Work from './components/Work.vue';
   <Popular />
   <FeaturedRestaurants />
   <SearchByFood />
+  <FoodBanners />
   <AppPromo />
 </template>
 
