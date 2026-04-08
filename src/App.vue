@@ -4,6 +4,7 @@ import FeaturedRestaurants from './components/FeaturedRestaurants.vue';
 import Header from './components/Header.vue';
 import Hero from './components/Hero.vue';
 import Popular from './components/Popular.vue';
+import SearchByFood from './components/SearchByFood.vue';
 import Work from './components/Work.vue';
 
 </script>
@@ -15,6 +16,7 @@ import Work from './components/Work.vue';
   <Work />
   <Popular />
   <FeaturedRestaurants />
+  <SearchByFood />
 </template>
 
 <style lang="scss">
