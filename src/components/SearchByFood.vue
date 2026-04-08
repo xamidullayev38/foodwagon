@@ -166,7 +166,7 @@ const foodItems = ref([
           1280: { slidesPerView: 6,   spaceBetween: 32 },
         }"
         @swiper="onSwiper"
-        class="!overflow-visible"
+        class="overflow-hidden"
       >
         <SwiperSlide
           v-for="item in foodItems"
