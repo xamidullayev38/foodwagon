@@ -41,13 +41,11 @@ const banners = ref([
         <div
           v-for="banner in banners"
           :key="banner.id"
-          class="rounded-2xl overflow-hidden grid grid-cols-1 md:grid-cols-2 h-[260px] md:h-[300px] shadow-lg"
+          class="rounded-2xl overflow-hidden flex flex-col md:flex-row h-auto md:h-[320px] shadow-lg"
         >
-
-          <!-- Text Section (Left or Right based on reverse) -->
           <div
             :class="[
-              'bg-gray-100 p-8 md:p-10 flex flex-col justify-center',
+              'bg-gray-100 p-8 md:p-10 flex flex-col justify-center w-full md:w-1/2',
               banner.reverse ? 'md:order-2' : 'md:order-1'
             ]"
           >
@@ -64,14 +62,13 @@ const banners = ref([
             </div>
           </div>
 
-          <!-- Image Section (Right or Left based on reverse) -->
+          <!-- Image Section -->
           <div
             :class="[
-              'relative',
+              'relative w-full md:w-1/2 h-48 md:h-auto',
               banner.reverse ? 'md:order-1' : 'md:order-2'
             ]"
           >
-            <!-- Dark overlay for first banner only -->
             <div
               v-if="banner.id === 1"
               class="absolute inset-0 bg-gradient-to-r from-black/40 to-transparent z-10"

@@ -8,6 +8,8 @@ import Hero from './components/Hero.vue';
 import Popular from './components/Popular.vue';
 import SearchByFood from './components/SearchByFood.vue';
 import Work from './components/Work.vue';
+import CTA from './components/CTA.vue';
+import Footer from './components/Footer.vue';
 
 </script>
 
@@ -19,10 +21,11 @@ import Work from './components/Work.vue';
   <Popular />
   <FeaturedRestaurants />
   <SearchByFood />
-  <FoodBanners />
   <AppPromo />
+  <FoodBanners />
+  <CTA />
+  <Footer />
 </template>
-
 <style lang="scss">
   @use './assets/styles/main.scss'
 </style>
