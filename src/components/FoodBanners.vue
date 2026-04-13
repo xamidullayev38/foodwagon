@@ -1,9 +1,10 @@
 <script setup>
-import { ref } from 'vue'
+import { onMounted, ref } from 'vue'
 
 import bannerImg1 from '../assets/img/card31.png'
 import bannerImg2 from '../assets/img/card32.png'
 import bannerImg3 from '../assets/img/card33.png'
+import gsap from 'gsap'
 
 const banners = ref([
   {
@@ -31,6 +32,9 @@ const banners = ref([
     reverse: true,
   },
 ])
+
+
+
 </script>
 
 <template>

@@ -3,7 +3,12 @@ import img from '../assets/img/card1.png'
 import img2 from '../assets/img/card2.png'
 import img3 from '../assets/img/card3.png'
 import img4 from '../assets/img/card4.png'
+import { ref } from 'vue'
+import { useReveal } from '../composables/useGsap'
 
+const sectionRef = ref(null)
+
+useReveal(sectionRef)
 const cards = [
     { id: 1, img, discount: 15, title: 'Greys Vage', deadLine: 6 },
     { id: 2, img: img2, discount: 10, title: 'Greys Sage', deadLine: 6 },
@@ -15,7 +20,7 @@ const cards = [
 
 
 <template>
-    <div class="container ">
+    <section ref="sectionRef" class="container ">
         <div class="mx-auto px-4 py-12">
             <div class="grid gap-6
              grid-cols-1
@@ -53,5 +58,5 @@ const cards = [
         </div>
 
 
-    </div>
+    </section>
 </template>
