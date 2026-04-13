@@ -147,12 +147,12 @@ const items = ref([
             1280: { slidesPerView: 4.5, spaceBetween: 28 },
           }"
           @swiper="onSwiper"
-          class="!overflow-visible py-4 px-0.5"
+          class="!overflow-visible! py-4 px-0.5"
         >
           <SwiperSlide
             v-for="item in items"
             :key="item.id"
-            class="!h-auto"
+            class="h-auto!"
           >
             <!-- ── Food Card ── -->
             <div
@@ -208,7 +208,7 @@ const items = ref([
                   <img
                     :src="locationIcon"
                     alt="location"
-                    class="w-3.5 h-3.5 flex-shrink-0 opacity-60"
+                    class="w-3.5 h-3.5 shrink-0 opacity-60"
                   />
                   <span class="truncate">{{ item.restaurant }}</span>
                 </div>

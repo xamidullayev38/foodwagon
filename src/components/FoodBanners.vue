@@ -41,7 +41,7 @@ const banners = ref([
         <div
           v-for="banner in banners"
           :key="banner.id"
-          class="rounded-2xl overflow-hidden flex flex-col md:flex-row h-auto md:h-[320px] shadow-lg"
+          class="rounded-2xl overflow-hidden flex flex-col md:flex-row h-auto md:h-80 shadow-lg"
         >
           <div
             :class="[
@@ -71,7 +71,7 @@ const banners = ref([
           >
             <div
               v-if="banner.id === 1"
-              class="absolute inset-0 bg-gradient-to-r from-black/40 to-transparent z-10"
+              class="absolute inset-0 bg-linear-to-r from-black/40 to-transparent z-10"
             ></div>
 
             <img

@@ -1,6 +1,6 @@
 <template>
   <section class="relative overflow-hidden">
-    <div class="bg-gradient-to-r from-orange-500 to-orange-400 py-20">
+    <div class="bg-linear-to-r from-orange-500 to-orange-400 py-20">
       
       <div class="max-w-7xl mx-auto px-6 relative z-10 text-center">
         
